@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML DEMO FORM</title>
+    </head>
+
+    <body>
+        <h1>
+            <!--stands for heading 1 and is the largest default text size, goes from h1 to h6-->
+            Create Your Account
+        </h1>
+        <!--horizontal line-->
+        <hr>
+        <div> <!--divide a section-->
+            <span>Name: </span>
+            <input> <!--creates the input tag next to the name (span) tag since inline-->
+        </div>
+        <br></br> <!--creates space-->
+        <div> <!--divide a section-->
+            <span>Username: </span>
+            <input> <!--creates the input tag next to the name (span) tag since inline-->
+        </div>
+        <br></br>
+        <div> <!--divide a section-->
+            <span>Password: </span>
+            <input> <!--creates the input tag next to the name (span) tag since inline-->
+        </div>
+        <br></br>
+        <div>
+            <span>Gender: </span>
+            <input type="radio" value="Male" name="gender" id="male"> <!--makes the button instead of text input-->
+            <label for="male">Male</label> <!--adds the text that goes next to the button-->
+            <input type="radio" value="Female" name="gender" id="female"> <!--name makes it so that you can ony select one of the buttons-->
+            <label for="female">Female</label>
+            <input type="radio" value="Other" name="gender" id="other"> <!--name makes it so that you can ony select one of the buttons-->
+            <label for="other">Other</label>
+        </div>
+        <br></br>
+        <div>
+            <span>Birthday: </span>
+            <input type="date"> <!--depends on which browser you use (safari, chrome, whatever)-->
+        </div>
+        <br>
+        <div>
+            <label for="year">Year: </label>
+            <select id="year" name="year"> <!--select tags allow you to select from the dropdown-->
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select>
+        </div>
+        <br>
+        <!--<input type="color">, makes a color picker-->
+        <button>Submit</button>
+    </body>
+</html>
